@@ -2,15 +2,16 @@
 
 .container {
   width: 100%;
-  height: calc(100vh - 150px);
-  background: var(--base-red);
+  // height: calc(100vh - 150px);
+  height: 100vh;
+  // background: var(--base-red);
 
   .banner {
     max-width: 1200px;
     height: inherit;
     display: flex;
     align-items: center;
-    margin: auto;
+    margin: 30px auto;
     position: relative;
   }
 
@@ -20,11 +21,12 @@
     border-radius: 10px;
     background: var(--base-white);
     z-index: 1;
+    box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.2);
   }
 
   .banner_image {
     position: absolute;
-    top: 10vh;
+    top: 40px;
     right: -60px;
     width: 700px;
     height: 600px;

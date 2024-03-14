@@ -1,11 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import url("./styles/colors.scss");
 
 * {
   font-family: Mulish, sans-serif;
   box-sizing: border-box;
+  cursor: default;
 }
 
 a {
   text-decoration: none;
   color: inherit;
+}
+
+body {
+  /* background: var(--base-red); */
 }

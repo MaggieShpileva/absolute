@@ -1,6 +1,7 @@
 @import url("../../../styles/colors.scss");
 
 .mobile_menu {
+  z-index: 100;
   .mobile_navbar {
     width: 0;
     height: 100vh;

@@ -1,0 +1,34 @@
+.room {
+  width: 350px;
+  height: 430px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 30px rgba(44, 60, 74, 0.08);
+
+  img {
+    width: 100%;
+    aspect-ratio: 4/3;
+  }
+  .description {
+    padding: 10px;
+
+    h4 {
+      margin: 5px 0;
+    }
+
+    a {
+      color: #235784;
+    }
+  }
+  .row {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+
+    img {
+      width: 25px;
+      height: 25px;
+      margin-right: 10px;
+    }
+  }
+}
