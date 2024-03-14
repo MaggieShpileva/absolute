@@ -1,0 +1,83 @@
+@import url("../../../styles/colors.scss");
+
+.mobile_menu {
+  .mobile_navbar {
+    width: 0;
+    height: 100vh;
+    transition: all 0.4s ease;
+    background-color: var(--base-white);
+    position: absolute;
+    right: 0;
+    top: 0;
+    box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.2);
+
+    .items {
+      width: inherit;
+      padding: 25px;
+      animation: open 500ms linear forwards;
+    }
+
+    svg {
+      position: absolute;
+      right: 25px;
+      cursor: pointer;
+    }
+
+    .mobile_nav {
+      margin: 60px 0;
+      font-size: 18px;
+      color: black;
+
+      ul {
+        padding: 0;
+
+        li {
+          list-style: none;
+          margin: 20px 0;
+        }
+      }
+
+      a {
+        position: relative;
+      }
+
+      a:after {
+        position: absolute;
+        content: "";
+        width: 0;
+        height: 2px;
+        border-radius: 2px;
+        background: black;
+        bottom: -5px;
+        left: 0;
+        opacity: 0;
+        transition: all 600ms linear;
+      }
+
+      a:hover:after {
+        opacity: 1;
+        width: 110%;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 901px) {
+  .mobile_menu {
+    display: none;
+  }
+}
+
+.mobile_navbar.open {
+  width: 300px;
+  opacity: 1;
+}
+
+@keyframes open {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
