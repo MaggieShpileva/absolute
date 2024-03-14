@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/absolute/static/css/main.f149cd93.css",
-    "main.js": "/absolute/static/js/main.94dc6c79.js",
+    "main.css": "/absolute/static/css/main.ff715944.css",
+    "main.js": "/absolute/static/js/main.a45f129c.js",
     "static/js/453.090c0bf1.chunk.js": "/absolute/static/js/453.090c0bf1.chunk.js",
+    "static/media/01.webp": "/absolute/static/media/01.d8e770b0b9b322b2f741.webp",
+    "static/media/bed.svg": "/absolute/static/media/bed.2f4e55ba45a6450a7c95880b2e385c42.svg",
     "static/media/bed-svgrepo-com.svg": "/absolute/static/media/bed-svgrepo-com.861c2bf377a3819cd423be5a7583a091.svg",
     "index.html": "/absolute/index.html",
-    "main.f149cd93.css.map": "/absolute/static/css/main.f149cd93.css.map",
-    "main.94dc6c79.js.map": "/absolute/static/js/main.94dc6c79.js.map",
+    "static/media/user.svg": "/absolute/static/media/user.b3291ba358dcb66fb9d2d2fbcc51ea96.svg",
+    "main.ff715944.css.map": "/absolute/static/css/main.ff715944.css.map",
+    "main.a45f129c.js.map": "/absolute/static/js/main.a45f129c.js.map",
     "453.090c0bf1.chunk.js.map": "/absolute/static/js/453.090c0bf1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f149cd93.css",
-    "static/js/main.94dc6c79.js"
+    "static/css/main.ff715944.css",
+    "static/js/main.a45f129c.js"
   ]
 }
