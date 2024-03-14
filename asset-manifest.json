@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/absolute/static/css/main.f149cd93.css",
+    "main.js": "/absolute/static/js/main.94dc6c79.js",
+    "static/js/453.090c0bf1.chunk.js": "/absolute/static/js/453.090c0bf1.chunk.js",
+    "static/media/bed-svgrepo-com.svg": "/absolute/static/media/bed-svgrepo-com.861c2bf377a3819cd423be5a7583a091.svg",
+    "index.html": "/absolute/index.html",
+    "main.f149cd93.css.map": "/absolute/static/css/main.f149cd93.css.map",
+    "main.94dc6c79.js.map": "/absolute/static/js/main.94dc6c79.js.map",
+    "453.090c0bf1.chunk.js.map": "/absolute/static/js/453.090c0bf1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f149cd93.css",
+    "static/js/main.94dc6c79.js"
+  ]
+}
