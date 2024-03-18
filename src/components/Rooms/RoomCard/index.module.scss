@@ -1,23 +1,50 @@
+@import url("../../../styles/colors.scss");
+
 .room {
-  width: 350px;
-  height: 430px;
+  // width: 350px;
+  // height: 430px;
+  // aspect-ratio: 2.4/3;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 2px 30px rgba(44, 60, 74, 0.08);
 
   img {
-    width: 100%;
     aspect-ratio: 4/3;
   }
+
   .description {
-    padding: 10px;
+    padding: 10px 15px 20px;
 
     h4 {
       margin: 5px 0;
     }
 
-    a {
-      color: #235784;
+    .link {
+      display: inline-block;
+
+      position: relative;
+      left: -7px;
+      padding: 7px 10px;
+      border-radius: 10px;
+      transition: color 300ms linear, background-color 600ms ease-in;
+      color: var(--base-blue-200);
+
+      // &:after {
+      //   position: absolute;
+      //   content: "";
+      //   width: 0px;
+      //   height: 2px;
+      //   border-radius: 2px;
+      //   background: var(--base-red);
+      //   bottom: -5px;
+      //   left: 0;
+      //   transition: all 800ms linear;
+      // }
+
+      &:hover {
+        background-color: rgb(255, 0, 0);
+        color: white;
+      }
     }
   }
   .row {

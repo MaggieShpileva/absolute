@@ -1,0 +1,18 @@
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 80px auto 30px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+
+  @media screen and (max-width: 1020px) {
+    justify-content: flex-start;
+  }
+  h4 {
+    font-size: 20px;
+    margin: 0 0 15px;
+  }
+}

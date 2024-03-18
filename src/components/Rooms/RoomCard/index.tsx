@@ -29,7 +29,9 @@ export const RoomCard: FC<Props> = ({ data }) => {
             <span>{data.type_bed}</span>
           </div>
         </div>
-        <a href="">Увидеть больше</a>
+        <div className={styles.link}>
+          <a href="">Увидеть больше</a>
+        </div>
       </div>
     </div>
   );

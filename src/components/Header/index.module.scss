@@ -1,7 +1,6 @@
 @import url("../../styles/colors.scss");
 
 header {
-  background: var(--base-red);
   height: 100px;
 
   .container {
@@ -12,7 +11,8 @@ header {
     align-items: center;
     margin: auto;
     height: inherit;
-    color: var(--base-white);
+    // color: var(--base-blue-200);
+
     padding: 20px;
 
     .logo {
@@ -20,9 +20,10 @@ header {
       display: flex;
       justify-content: space-between;
       align-items: center;
-
+      // color: var(--base-red);
       img {
         width: 50px;
+        border: 5px solid red;
       }
 
       span {

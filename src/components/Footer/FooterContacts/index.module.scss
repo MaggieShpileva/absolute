@@ -1,0 +1,20 @@
+.contacts {
+  width: 270px;
+  .row {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 15px;
+
+    span {
+      font-size: 30px;
+      position: relative;
+      left: -5px;
+    }
+
+    .text {
+      font-size: 16px;
+      margin-left: 5px;
+      margin-top: 2px;
+    }
+  }
+}

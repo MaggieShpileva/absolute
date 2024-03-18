@@ -5,7 +5,7 @@ export const DesktopMenu = () => {
     <nav className={styles.desktop_nav}>
       <a href="">Главная</a>
       <a href="">О нас</a>
-      <a href="">Комнаты</a>
+      <a href="#rooms">Комнаты</a>
       <a href="">Новости</a>
       <button>Контакты</button>
     </nav>
