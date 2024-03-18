@@ -1,19 +1,22 @@
 {
   "files": {
-    "main.css": "/absolute/static/css/main.ff715944.css",
-    "main.js": "/absolute/static/js/main.a45f129c.js",
+    "main.css": "/absolute/static/css/main.f63d6976.css",
+    "main.js": "/absolute/static/js/main.a30a7ba1.js",
     "static/js/453.090c0bf1.chunk.js": "/absolute/static/js/453.090c0bf1.chunk.js",
     "static/media/01.webp": "/absolute/static/media/01.d8e770b0b9b322b2f741.webp",
     "static/media/bed.svg": "/absolute/static/media/bed.2f4e55ba45a6450a7c95880b2e385c42.svg",
-    "static/media/bed-svgrepo-com.svg": "/absolute/static/media/bed-svgrepo-com.861c2bf377a3819cd423be5a7583a091.svg",
+    "static/media/phone.svg": "/absolute/static/media/phone.3aa6a724108991bb92bf5db87aeaf642.svg",
     "index.html": "/absolute/index.html",
     "static/media/user.svg": "/absolute/static/media/user.b3291ba358dcb66fb9d2d2fbcc51ea96.svg",
-    "main.ff715944.css.map": "/absolute/static/css/main.ff715944.css.map",
-    "main.a45f129c.js.map": "/absolute/static/js/main.a45f129c.js.map",
+    "static/media/email.svg": "/absolute/static/media/email.c7335bc5aec0c5331915e5842fbd4697.svg",
+    "static/media/clock.svg": "/absolute/static/media/clock.590edc60b8b911ecf70b0f1e4356de85.svg",
+    "static/media/location.svg": "/absolute/static/media/location.98984f9f86d8348a8165ff97c48c421c.svg",
+    "main.f63d6976.css.map": "/absolute/static/css/main.f63d6976.css.map",
+    "main.a30a7ba1.js.map": "/absolute/static/js/main.a30a7ba1.js.map",
     "453.090c0bf1.chunk.js.map": "/absolute/static/js/453.090c0bf1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff715944.css",
-    "static/js/main.a45f129c.js"
+    "static/css/main.f63d6976.css",
+    "static/js/main.a30a7ba1.js"
   ]
 }
