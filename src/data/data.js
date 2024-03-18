@@ -1,9 +1,9 @@
 import card1 from "../images/rooms/01.webp";
-
+import room1 from "../images/rooms/room1.png";
 export const dataRoomsCard = [
   {
     id: 1,
-    img: card1,
+    img: room1,
     title: "Мужская комната на 6 человек",
     sleeps: 6,
     type_bed: "двухъярусная кровать",

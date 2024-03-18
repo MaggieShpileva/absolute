@@ -3,8 +3,7 @@
 .container {
   width: 100%;
   // height: calc(100vh - 150px);
-  height: 100vh;
-  // background: var(--base-red);
+  height: calc(100vh - 150px);
 
   .banner {
     max-width: 1200px;
@@ -22,14 +21,38 @@
     background: var(--base-white);
     z-index: 1;
     box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.2);
+
+    @media screen and (max-width: 700px) {
+      width: calc(100% - 40px);
+      padding: 50px 80px 50px 30px;
+      padding-left: 30px;
+      font-size: 14px;
+    }
+
+    h1 {
+      margin-bottom: 30px;
+
+      span {
+        // position: relative;
+        // &::after {
+        //   position: absolute;
+        //   content: "";
+        //   width: 102%;
+        //   height: 3px;
+        //   background: var(--base-red);
+        //   bottom: 0;
+        //   left: -2px;
+        // }
+      }
+    }
   }
 
   .banner_image {
     position: absolute;
     top: 40px;
-    right: -60px;
-    width: 700px;
-    height: 600px;
+    right: -70px;
+    width: 800px;
+    height: 700px;
     background-color: black;
     border-radius: 10px;
     overflow: hidden;
